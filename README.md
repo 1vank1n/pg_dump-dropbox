@@ -7,7 +7,7 @@
 
 # Installation
 
-    git clone https://github.com/1vank1n/psqldump-dropbox.git
+    git clone https://github.com/1vank1n/pg_dump-dropbox.git
 
 # Usage
 
