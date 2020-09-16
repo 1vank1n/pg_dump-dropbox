@@ -11,7 +11,7 @@
 
 # Usage
 
-    Two steps.
+    Three steps.
 
     *First*. Register your app in dropbox. For hint, just start `bash dropbox_uploader.sh`
 
