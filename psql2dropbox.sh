@@ -36,7 +36,7 @@ mkdir $BACKUPS_DIR
 # Dump, gzip, databases
 for dbname in `psql -h localhost -U $PSQL_USER -t -A -c 'SELECT datname FROM pg_database'`; do
     echo "Dump $dbname..."
-    pg_dump -h localhost -U $PSQL_USER $dbname | gzip > $BACKUPS_DIR/$dbname.tar.gz
+    pg_dump -h localhost -U $PSQL_USER $dbname | gzip > $BACKUPS_DIR/$dbname.gz
 done;
 
 # Upload with Dropbox-uploader https://github.com/andreafabrizi/Dropbox-Uploader
